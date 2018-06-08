@@ -9,13 +9,13 @@
                 text-color="#ff9900"
                 score-template="{value}">
             </el-rate>
-            <span style="float:right;">Vue之filter的使用：{{testFilter | transform('lower')}}</span>
+           <!--<span style="float:right;">Vue之filter的使用：{{testFilter | transform('lower')}}</span>-->
         </div>
         <div class="chart-info">
             <div id="chartPlace" class="chart-place" style="height:450px"></div>
             <div id="chartUser" class="chart-user"></div>
         </div>
-        <input type="text" name="t" id="t" v-model="testFilter">
+        <!--<input type="text" name="t" id="t" v-model="testFilter">-->
     </div>
 </template>
 <script>
