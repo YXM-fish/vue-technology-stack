@@ -1,4 +1,4 @@
-# vue-cli-use
+# vue-technology-stack
 
 > A Vue.js project
 
